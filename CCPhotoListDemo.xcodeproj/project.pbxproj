@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9193CE54E9D6ABBE30758221 /* libPods-CCPhotoListDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D2246F877A586CFB839D5 /* libPods-CCPhotoListDemo.a */; };
+		CB36FE3A1F13268600FBDB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE391F13268600FBDB12 /* main.m */; };
+		CB36FE3D1F13268600FBDB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE3C1F13268600FBDB12 /* AppDelegate.m */; };
+		CB36FE401F13268600FBDB12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE3F1F13268600FBDB12 /* ViewController.m */; };
+		CB36FE431F13268600FBDB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB36FE411F13268600FBDB12 /* Main.storyboard */; };
+		CB36FE451F13268600FBDB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB36FE441F13268600FBDB12 /* Assets.xcassets */; };
+		CB36FE481F13268600FBDB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB36FE461F13268600FBDB12 /* LaunchScreen.storyboard */; };
+		CB36FE511F1329CD00FBDB12 /* CCPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE501F1329CD00FBDB12 /* CCPhotoListCell.m */; };
+		CB36FE541F1329DC00FBDB12 /* CCPhotoListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE531F1329DC00FBDB12 /* CCPhotoListModel.m */; };
+		CB36FE581F132C0900FBDB12 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE571F132C0900FBDB12 /* UIColor+Extend.m */; };
+		CB36FE5B1F132F4500FBDB12 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36FE5A1F132F4500FBDB12 /* NSDate+Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0C2A97A1D68BF0DB7CB77D /* Pods-CCPhotoListDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPhotoListDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCPhotoListDemo/Pods-CCPhotoListDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4A7D2246F877A586CFB839D5 /* libPods-CCPhotoListDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCPhotoListDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE0BD738CF1A00CE23FFF0D /* Pods-CCPhotoListDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPhotoListDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCPhotoListDemo/Pods-CCPhotoListDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB36FE351F13268600FBDB12 /* CCPhotoListDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPhotoListDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB36FE391F13268600FBDB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB36FE3B1F13268600FBDB12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB36FE3C1F13268600FBDB12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB36FE3E1F13268600FBDB12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB36FE3F1F13268600FBDB12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB36FE421F13268600FBDB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB36FE441F13268600FBDB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB36FE471F13268600FBDB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB36FE491F13268600FBDB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB36FE4F1F1329CD00FBDB12 /* CCPhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPhotoListCell.h; sourceTree = "<group>"; };
+		CB36FE501F1329CD00FBDB12 /* CCPhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPhotoListCell.m; sourceTree = "<group>"; };
+		CB36FE521F1329DC00FBDB12 /* CCPhotoListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPhotoListModel.h; sourceTree = "<group>"; };
+		CB36FE531F1329DC00FBDB12 /* CCPhotoListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPhotoListModel.m; sourceTree = "<group>"; };
+		CB36FE551F132A6C00FBDB12 /* CCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDefine.h; sourceTree = "<group>"; };
+		CB36FE561F132C0900FBDB12 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		CB36FE571F132C0900FBDB12 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		CB36FE591F132F4500FBDB12 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		CB36FE5A1F132F4500FBDB12 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB36FE321F13268600FBDB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9193CE54E9D6ABBE30758221 /* libPods-CCPhotoListDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382E486109C47DF17E64FC98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CE0BD738CF1A00CE23FFF0D /* Pods-CCPhotoListDemo.debug.xcconfig */,
+				1C0C2A97A1D68BF0DB7CB77D /* Pods-CCPhotoListDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB36FE2C1F13268600FBDB12 = {
+			isa = PBXGroup;
+			children = (
+				CB36FE371F13268600FBDB12 /* CCPhotoListDemo */,
+				CB36FE361F13268600FBDB12 /* Products */,
+				382E486109C47DF17E64FC98 /* Pods */,
+				D0ED8F6244CB759C4CE6733D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB36FE361F13268600FBDB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB36FE351F13268600FBDB12 /* CCPhotoListDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB36FE371F13268600FBDB12 /* CCPhotoListDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB36FE3B1F13268600FBDB12 /* AppDelegate.h */,
+				CB36FE3C1F13268600FBDB12 /* AppDelegate.m */,
+				CB36FE3E1F13268600FBDB12 /* ViewController.h */,
+				CB36FE3F1F13268600FBDB12 /* ViewController.m */,
+				CB36FE4F1F1329CD00FBDB12 /* CCPhotoListCell.h */,
+				CB36FE501F1329CD00FBDB12 /* CCPhotoListCell.m */,
+				CB36FE521F1329DC00FBDB12 /* CCPhotoListModel.h */,
+				CB36FE531F1329DC00FBDB12 /* CCPhotoListModel.m */,
+				CB36FE551F132A6C00FBDB12 /* CCDefine.h */,
+				CB36FE561F132C0900FBDB12 /* UIColor+Extend.h */,
+				CB36FE571F132C0900FBDB12 /* UIColor+Extend.m */,
+				CB36FE591F132F4500FBDB12 /* NSDate+Extend.h */,
+				CB36FE5A1F132F4500FBDB12 /* NSDate+Extend.m */,
+				CB36FE411F13268600FBDB12 /* Main.storyboard */,
+				CB36FE441F13268600FBDB12 /* Assets.xcassets */,
+				CB36FE461F13268600FBDB12 /* LaunchScreen.storyboard */,
+				CB36FE491F13268600FBDB12 /* Info.plist */,
+				CB36FE381F13268600FBDB12 /* Supporting Files */,
+			);
+			path = CCPhotoListDemo;
+			sourceTree = "<group>";
+		};
+		CB36FE381F13268600FBDB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB36FE391F13268600FBDB12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0ED8F6244CB759C4CE6733D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D2246F877A586CFB839D5 /* libPods-CCPhotoListDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB36FE341F13268600FBDB12 /* CCPhotoListDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB36FE4C1F13268600FBDB12 /* Build configuration list for PBXNativeTarget "CCPhotoListDemo" */;
+			buildPhases = (
+				11FE84E93F6A2B770F2EBE8B /* [CP] Check Pods Manifest.lock */,
+				CB36FE311F13268600FBDB12 /* Sources */,
+				CB36FE321F13268600FBDB12 /* Frameworks */,
+				CB36FE331F13268600FBDB12 /* Resources */,
+				9240BA9F89DAE2D00A32814F /* [CP] Embed Pods Frameworks */,
+				B5515305DC3E3D56DCEF3475 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCPhotoListDemo;
+			productName = CCPhotoListDemo;
+			productReference = CB36FE351F13268600FBDB12 /* CCPhotoListDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB36FE2D1F13268600FBDB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = luckyCoderCai;
+				TargetAttributes = {
+					CB36FE341F13268600FBDB12 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7GSW2BF5U4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB36FE301F13268600FBDB12 /* Build configuration list for PBXProject "CCPhotoListDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB36FE2C1F13268600FBDB12;
+			productRefGroup = CB36FE361F13268600FBDB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB36FE341F13268600FBDB12 /* CCPhotoListDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB36FE331F13268600FBDB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB36FE481F13268600FBDB12 /* LaunchScreen.storyboard in Resources */,
+				CB36FE451F13268600FBDB12 /* Assets.xcassets in Resources */,
+				CB36FE431F13268600FBDB12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FE84E93F6A2B770F2EBE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9240BA9F89DAE2D00A32814F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPhotoListDemo/Pods-CCPhotoListDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5515305DC3E3D56DCEF3475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPhotoListDemo/Pods-CCPhotoListDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB36FE311F13268600FBDB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB36FE511F1329CD00FBDB12 /* CCPhotoListCell.m in Sources */,
+				CB36FE581F132C0900FBDB12 /* UIColor+Extend.m in Sources */,
+				CB36FE5B1F132F4500FBDB12 /* NSDate+Extend.m in Sources */,
+				CB36FE541F1329DC00FBDB12 /* CCPhotoListModel.m in Sources */,
+				CB36FE401F13268600FBDB12 /* ViewController.m in Sources */,
+				CB36FE3D1F13268600FBDB12 /* AppDelegate.m in Sources */,
+				CB36FE3A1F13268600FBDB12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB36FE411F13268600FBDB12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB36FE421F13268600FBDB12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB36FE461F13268600FBDB12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB36FE471F13268600FBDB12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB36FE4A1F13268600FBDB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB36FE4B1F13268600FBDB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB36FE4D1F13268600FBDB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE0BD738CF1A00CE23FFF0D /* Pods-CCPhotoListDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7GSW2BF5U4;
+				INFOPLIST_FILE = CCPhotoListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Curtis.CCPhotoListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Debug;
+		};
+		CB36FE4E1F13268600FBDB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0C2A97A1D68BF0DB7CB77D /* Pods-CCPhotoListDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7GSW2BF5U4;
+				INFOPLIST_FILE = CCPhotoListDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Curtis.CCPhotoListDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB36FE301F13268600FBDB12 /* Build configuration list for PBXProject "CCPhotoListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB36FE4A1F13268600FBDB12 /* Debug */,
+				CB36FE4B1F13268600FBDB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB36FE4C1F13268600FBDB12 /* Build configuration list for PBXNativeTarget "CCPhotoListDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB36FE4D1F13268600FBDB12 /* Debug */,
+				CB36FE4E1F13268600FBDB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB36FE2D1F13268600FBDB12 /* Project object */;
+}
