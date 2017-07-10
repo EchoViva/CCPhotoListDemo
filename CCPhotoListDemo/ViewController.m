@@ -63,7 +63,7 @@
     
     self.title = @"相册";
     self.view.backgroundColor = [UIColor whiteColor];
-    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.automaticallyAdjustsScrollViewInsets = NO;//取消自动偏移
     
     [self setupUI];
     [self addData];
@@ -274,7 +274,7 @@
     [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.and.trailing.equalTo(@0);
         make.top.equalTo(self.mas_topLayoutGuide);
-        make.bottom.equalTo(self.mas_bottomLayoutGuide);
+        make.bottom.equalTo(self.mas_bottomLayoutGuideTop);
     }];
 }
 
@@ -362,10 +362,13 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    NSLog(@"contentOffset: %.2f", scrollView.contentOffset.y);
     NSArray *array = [self.tableView indexPathsForVisibleRows];
     NSIndexPath *indexPath = [array firstObject];
     CGRect rectInTableView = [self.tableView rectForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:indexPath.section]];
     CGRect rect = [self.tableView convertRect:rectInTableView toView:self.view];
+    
+    NSLog(@"%.2f", rect.origin.y);
     if (rect.origin.y <= (64 + 25)) {
         
         CCPhotoListModel *model = (CCPhotoListModel *)[self.dataArray[indexPath.section] firstObject];
